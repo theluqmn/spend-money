@@ -16,6 +16,6 @@ if (import.meta.env.DEV && !(root instanceof HTMLElement)) {
 
 render(() => (
   <Router root={App}>
-    <Route path="/" component={App}/>
+    <Route path="/spend-money/" component={Home}/>
   </Router>
 ), root);
